@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Present</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #ff4d4d;
+            font-size: 3em; /* Make the text bigger */
+            margin: 0; /* Remove default margin */
+        }
+        p {
+            color: #333;
+        }
+        .present {
+            background-color: #ffcccc;
+            border: 2px solid #ff4d4d;
+            padding: 20px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            background-color: #7c4dff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #970ee6;
+        }
+        .flower {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="flower1.jpg" alt="Flower" class="flower">
+    <h1>Happy Valentine's Day!</h1>
+    <p>Do you want to be my valentine?</p>
+    <div class="buttons">
+        <button onclick="location.href='yes.html'">Yes</button>
+        <button onclick="alert('Oh no! Maybe next time.')">No</button>
+    </div>
+</body>
+</html>
